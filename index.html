@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <picture>
+          <img src="fiestasbg.jpg" alt="" />
+        </picture>
+        <div class="content">
+          <div class="wrapper">
+            <div class="shadow"></div>
+            <svg
+              id="svgContain"
+              fill="none"
+              viewBox="0 0 359 691"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="661.68"
+                width="332.68"
+                rx="24.2"
+                stroke="#F0F0F2"
+                stroke-width="9.68"
+                x="21.16"
+                y="5.16"
+                fill="white"
+              ></rect>
+              <g>
+                <text
+                  class="btn"
+                  fill="#161338"
+                  font-size="12"
+                  font-weight="bold"
+                >
+                  <tspan x="110" y="32">Solicitar Depósito a plazo</tspan>
+                </text>
+                <text
+                  class="btn"
+                  fill="#fa4616"
+                  font-size="12"
+                  font-weight="bold"
+                >
+                  <tspan x="42" y="64">3&nbsp;&nbsp;Confirmación</tspan>
+                </text>
+              </g>
+              <rect
+                height="4"
+                width="322"
+                fill="#fa4616"
+                x="26.5"
+                y="80"
+              ></rect>
+              <text
+                class="btn"
+                fill="#161338"
+                font-size="12"
+                font-weight="bold"
+              >
+                <tspan x="42" y="110">Resumen de Solicitud</tspan>
+              </text>
+              <g>
+                <text
+                  class="btn"
+                  fill="#161338"
+                  font-size="20"
+                  font-weight="bold"
+                >
+                  <tspan x="120" y="160">Monto a recibir</tspan>
+                </text>
+                <text
+                  class="btn"
+                  fill="#8f1a95"
+                  font-size="48"
+                  font-weight="bold"
+                >
+                  <tspan id="balance" x="52" y="220">0</tspan>
+                </text>
+              </g>
+              <g>
+                <text
+                  class="btn"
+                  fill="#222"
+                  font-size="16"
+                  font-weight="normal"
+                >
+                  <tspan x="42" y="274">Monto</tspan>
+                </text>
+                <text class="btn" fill="#222" font-size="16" font-weight="bold">
+                  <tspan x="260" y="274">S/. 50,000</tspan>
+                </text>
+              </g>
+              <g>
+                <text
+                  class="btn"
+                  fill="#222"
+                  font-size="16"
+                  font-weight="normal"
+                >
+                  <tspan x="42" y="308">Plazo</tspan>
+                </text>
+                <text class="btn" fill="#222" font-size="16" font-weight="bold">
+                  <tspan id="days" x="270" y="308">0</tspan>
+                </text>
+              </g>
+              <g>
+                <text
+                  class="btn"
+                  fill="#222"
+                  font-size="16"
+                  font-weight="normal"
+                >
+                  <tspan x="42" y="342">Tasa</tspan>
+                </text>
+                <text class="btn" fill="#222" font-size="16" font-weight="bold">
+                  <tspan id="rate" x="287" y="342">0</tspan>
+                </text>
+              </g>
+              <rect
+                height="2"
+                width="322"
+                fill="#dfdfdf"
+                x="26.5"
+                y="364"
+              ></rect>
+              <g>
+                <text
+                  class="btn"
+                  fill="#222"
+                  font-size="12"
+                  font-weight="normal"
+                >
+                  <tspan x="42" y="400">Tipo DPF</tspan>
+                </text>
+                <text
+                  class="btn"
+                  fill="#222"
+                  font-size="12"
+                  font-weight="normal"
+                >
+                  <tspan x="290" y="400">Clasico</tspan>
+                </text>
+              </g>
+              <g>
+                <text
+                  class="btn"
+                  fill="#222"
+                  font-size="12"
+                  font-weight="normal"
+                >
+                  <tspan x="42" y="432">Fecha de inicio</tspan>
+                </text>
+                <text
+                  class="btn"
+                  fill="#222"
+                  font-size="12"
+                  font-weight="normal"
+                >
+                  <tspan x="269" y="432">17/07/2023</tspan>
+                </text>
+              </g>
+              <g>
+                <text
+                  class="btn"
+                  fill="#222"
+                  font-size="12"
+                  font-weight="normal"
+                >
+                  <tspan x="42" y="464">Vencimiento</tspan>
+                </text>
+                <text
+                  class="btn"
+                  fill="#222"
+                  font-size="12"
+                  font-weight="normal"
+                >
+                  <tspan x="269" y="464">17/07/2024</tspan>
+                </text>
+              </g>
+              <g>
+                <text
+                  class="btn"
+                  fill="#222"
+                  font-size="12"
+                  font-weight="normal"
+                >
+                  <tspan x="42" y="496">Inst. al vencimiento</tspan>
+                </text>
+                <text
+                  class="btn"
+                  fill="#222"
+                  font-size="12"
+                  font-weight="normal"
+                >
+                  <tspan x="198" y="496">Cancelar al vencimiento</tspan>
+                </text>
+              </g>
+              <g>
+                <rect
+                  height="41.867"
+                  width="322"
+                  fill="#fa4616"
+                  x="26.5"
+                  y="554.537"
+                ></rect>
+                <text class="btn" fill="#fff" font-size="14">
+                  <tspan x="146" y="581.103">CONFIRMAR</tspan>
+                </text>
+              </g>
+              <g>
+                <path d="M26 607h322v67.287H26z" fill-opacity=".82"></path>
+                <path
+                  d="M316.274 624.389a4.766 4.766 0 014.769 4.77v.662a.009.009 0 01.001.005l-.001.012v.322c0 .775-.186 1.513-.525 2.17a.558.558 0 00.213.737c2.035 1.149 3.125 3.069 3.125 4.958 0 .639-.351 1.233-.776 1.715-.441.5-1.046.975-1.738 1.387-1.382.821-3.22 1.451-5.058 1.477h-.01c-1.839 0-3.678-.604-5.062-1.408-.694-.403-1.299-.871-1.742-1.366-.426-.477-.779-1.069-.779-1.71l.001-.017c.045-1.912 1.102-3.843 3.14-5.021a.558.558 0 00.206-.735 4.71 4.71 0 01-.534-2.187v-1.001a4.767 4.767 0 014.77-4.77zm-1.82 9.856c-.538-.218-1.143-.337-1.664-.079-1.821.898-2.663 2.469-2.663 3.859 0 .123.084.387.417.765.318.36.795.745 1.395 1.102 1.203.715 2.795 1.253 4.34 1.276 1.544-.001 3.135-.517 4.335-1.214.6-.348 1.076-.726 1.392-1.08.326-.366.411-.623.414-.748 0-.379-.02-.711-.056-1.001-.291-2.32-3.752-2.529-6.09-2.529a4.89 4.89 0 01-1.82-.351zm5.153-4.424v-.662a3.33 3.33 0 00-3.333-3.334 3.33 3.33 0 00-3.334 3.334v.677a3.33 3.33 0 003.334 3.324 3.33 3.33 0 003.333-3.334v-.005zM260.373 625.221a.48.48 0 00-.706-.533l-16.26 9.546a.957.957 0 00.104 1.704l3.499 1.516a.953.953 0 01.548.646l.851 3.401c.09.361.539.485.803.222l1.853-1.853a.955.955 0 011.057-.201l3.04 1.317a.958.958 0 001.307-.64l3.904-15.125zm-9.994 10.668a.957.957 0 00.273 1.578l2.511 1.088a1.916 1.916 0 002.616-1.279l1.88-7.286c.09-.348-.33-.598-.593-.352l-6.687 6.251zm5.3-6.92c.104-.098-.019-.263-.142-.191l-9.777 5.739a.479.479 0 00.052.852l1.487.645a.96.96 0 001.035-.179l7.345-6.866zM128.644 639.433c-.698-.698-1.806-.724-2.69-.281a7.623 7.623 0 01-3.427.807 7.657 7.657 0 01-7.658-7.658 7.658 7.658 0 1115.317 0 7.624 7.624 0 01-.808 3.427c-.443.883-.417 1.991.282 2.69l1.962 1.962c.28.28.28.735 0 1.015a.716.716 0 01-1.015 0l-1.963-1.962zm.106-7.132a6.223 6.223 0 10-12.446 0 6.223 6.223 0 0012.446 0z"
+                  fill="#161338"
+                  fill-opacity=".6"
+                  fill-rule="evenodd"
+                ></path>
+                <path
+                  d="M185.267 624.927a.719.719 0 00-.982-1.048l-3.829 3.59a.717.717 0 000 1.048l3.829 3.59a.719.719 0 00.982-1.048l-.739-.692c-.633-.594-.213-1.656.655-1.656h7.73a.718.718 0 000-1.436h-7.73c-.868 0-1.288-1.062-.655-1.656l.739-.692zM181.665 638.045c0-.397.321-.718.718-.718h7.73c.868 0 1.288-1.062.655-1.656l-.739-.692a.719.719 0 01.982-1.048l3.829 3.59a.717.717 0 010 1.048l-3.829 3.59a.719.719 0 01-.982-1.048l.739-.692c.633-.594.213-1.656-.655-1.656h-7.73a.718.718 0 01-.718-.718z"
+                  fill="#161338"
+                  fill-opacity=".6"
+                ></path>
+                <path
+                  d="M66.746 641.874a.957.957 0 00.958-.957v-9.374a.958.958 0 00-.333-.725l-7.659-6.595a.958.958 0 00-1.249 0l-7.659 6.595a.958.958 0 00-.332.725v9.374c0 .529.428.957.957.957h15.317zm-8.283-15.756a.958.958 0 011.25 0l6.222 5.358a.959.959 0 01.333.726v6.322a1.914 1.914 0 01-1.915 1.914h-1.436a.957.957 0 01-.957-.957v-4.308a.957.957 0 00-.958-.957h-3.829a.957.957 0 00-.957.957v4.308a.957.957 0 01-.958.957h-2.393a.957.957 0 01-.957-.957v-7.279c0-.279.121-.544.332-.726l6.223-5.358zm-.811 10.491c0-.529.428-.957.957-.957h.957c.53 0 .958.428.958.957v2.872a.957.957 0 01-.958.957h-.957a.957.957 0 01-.957-.957v-2.872z"
+                  fill="#8f1a95"
+                  fill-rule="evenodd"
+                ></path>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <div class="interest">
+          <div class="interest-shadow">
+            <div class="interest-title">
+              <img src="logo.png" alt="" />
+              <p>DPF</p>
+            </div>
+            <p>Ganaste S/.9,677.81 en intereses.</p>
+            <div class="noti">now</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module">
+      import { CountUp } from 'countup.js';
+      const options = {
+        decimalPlaces: 2,
+      };
+      const countUp = new CountUp('balance', 59677.81, {
+        ...options,
+        prefix: 'S/.',
+      });
+      const countUp2 = new CountUp('days', 720, { suffix: ' días' });
+      const countUp3 = new CountUp('rate', 9.25, { ...options, suffix: '%' });
+      if (!countUp.error) {
+        countUp.start();
+        countUp2.start();
+        countUp3.start();
+      } else {
+        console.error(countUp.error);
+      }
+    </script>
+  </body>
+</html>
